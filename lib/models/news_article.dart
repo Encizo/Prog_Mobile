@@ -40,6 +40,7 @@ class NewsArticle {
 
   // Getter para data formatada
   String get formattedDate {
+    
     return '${eventDate.day}/${eventDate.month}/${eventDate.year}';
   }
 }

@@ -82,6 +82,7 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
         'notes': {user.uid: _notesController.text},
         'followedAt': FieldValue.serverTimestamp(),
         'title': widget.article.title,
+        
         'eventType': widget.article.eventType,
         'subEventType': widget.article.subEventType,
         'actor1': widget.article.actor1,
